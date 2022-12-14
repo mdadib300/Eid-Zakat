@@ -1,0 +1,91 @@
+body {
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-image: url('images/Rectangle.png');
+    background-repeat: no-repeat;
+    height: 700px;
+    color: white;
+}
+
+#banner {
+    padding-top: 180px;
+    padding-left: 200px;
+}
+
+.paragraph {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #EF233C;
+    color: white;
+    padding: 16px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.flex-grp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.details {
+    text-align: center;
+    margin-top: 130px;
+}
+
+#gridlayout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    padding: 50px 200px 0px 200px;
+}
+
+.directhelp {
+    background-color: #FEF4F5;
+    width: 461px;
+    padding: 40px 0 40px 40px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    padding: 50px 150px 0px 150px;
+}
+
+.card {
+    width: 364px;
+    height: 400px;
+    border: 1px solid rgb(218, 214, 214);
+    border-radius: 10px;
+}
+
+.cardmargin {
+    margin-left: 30px;
+}
+
+u {
+    color: #EF233C;
+}
+
+footer {
+    background-color: #0B0D17;
+    height: 177px;
+    margin-top: 130px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #EF233C;
+}
